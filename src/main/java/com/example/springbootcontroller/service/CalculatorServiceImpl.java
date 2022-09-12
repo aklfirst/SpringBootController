@@ -7,7 +7,6 @@ import org.springframework.stereotype.Service;
 public class CalculatorServiceImpl implements CalculatorService {
 
 
-
     @Override
     public int plus(Integer a, Integer b) {
         return a + b;
